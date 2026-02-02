@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/FS-Experiment-2/exp-2.2-product-filter/static/css/main.09d81ecf.css",
+    "main.js": "/FS-Experiment-2/exp-2.2-product-filter/static/js/main.1a1fe4ae.js",
+    "static/js/453.f2a171ea.chunk.js": "/FS-Experiment-2/exp-2.2-product-filter/static/js/453.f2a171ea.chunk.js",
+    "index.html": "/FS-Experiment-2/exp-2.2-product-filter/index.html",
+    "main.09d81ecf.css.map": "/FS-Experiment-2/exp-2.2-product-filter/static/css/main.09d81ecf.css.map",
+    "main.1a1fe4ae.js.map": "/FS-Experiment-2/exp-2.2-product-filter/static/js/main.1a1fe4ae.js.map",
+    "453.f2a171ea.chunk.js.map": "/FS-Experiment-2/exp-2.2-product-filter/static/js/453.f2a171ea.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.09d81ecf.css",
+    "static/js/main.1a1fe4ae.js"
+  ]
+}
