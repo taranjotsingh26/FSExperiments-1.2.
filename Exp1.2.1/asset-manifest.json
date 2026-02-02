@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/FS-Experiment-2/exp-2.1-char-counter/static/css/main.aaf40ca6.css",
+    "main.js": "/FS-Experiment-2/exp-2.1-char-counter/static/js/main.20fb55e6.js",
+    "static/js/453.24f09723.chunk.js": "/FS-Experiment-2/exp-2.1-char-counter/static/js/453.24f09723.chunk.js",
+    "index.html": "/FS-Experiment-2/exp-2.1-char-counter/index.html",
+    "main.aaf40ca6.css.map": "/FS-Experiment-2/exp-2.1-char-counter/static/css/main.aaf40ca6.css.map",
+    "main.20fb55e6.js.map": "/FS-Experiment-2/exp-2.1-char-counter/static/js/main.20fb55e6.js.map",
+    "453.24f09723.chunk.js.map": "/FS-Experiment-2/exp-2.1-char-counter/static/js/453.24f09723.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aaf40ca6.css",
+    "static/js/main.20fb55e6.js"
+  ]
+}
