@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SVG Drawing Tool</title>
+<style>
+body {
+  font-family: Arial;
+  text-align: center;
+}
+
+svg {
+  border: 2px dashed gray;
+  width: 80vw;
+  height: 60vh;
+  margin-top: 20px;
+}
+
+button {
+  padding: 8px 15px;
+  margin: 10px;
+  font-size: 15px;
+}
+</style>
+</head>
+
+<body>
+
+<h2>SVG Drawing Tool</h2>
+
+<button onclick="undo()">Undo</button>
+
+<br>
+
+<svg id="canvas"></svg>
+
+<p>Circles drawn: <span id="count">0</span></p>
+
+<script>
+
+let svg = document.getElementById("canvas");
+let count = 0;
+
+svg.addEventListener("click", function(event) {
+
+  let circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+
+  circle.setAttribute("cx", event.offsetX);
+  circle.setAttribute("cy", event.offsetY);
+  circle.setAttribute("r", 8);
+  circle.setAttribute("fill", "blue");
+
+  svg.appendChild(circle);
+
+  count++;
+  document.getElementById("count").innerText = count;
+
+});
+
+function undo() {
+
+  if (svg.lastChild) {
+    svg.removeChild(svg.lastChild);
+    count--;
+    document.getElementById("count").innerText = count;
+  }
+
+}
+
+</script>
+
+</body>
+</html>
